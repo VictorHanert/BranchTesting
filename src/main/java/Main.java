@@ -6,6 +6,10 @@ public class Main {
 
         Cat cat = new Cat();
         cat.makeSound();
+
+        System.out.println("What does the fox say?");
+        Fox fox = new Fox();
+        fox.makeSound();
     }
 }
 
